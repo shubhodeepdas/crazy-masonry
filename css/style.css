@@ -1,0 +1,262 @@
+/* This is the saas file for the layout */
+body {
+  font-family: "Helvetica CY", sans-serif;
+  font-size: 12px;
+  color: #333333;
+  margin: 0px;
+  padding: 0px;
+  background-color: #bec3c7; }
+  @media screen and (max-width: 640px) {
+    body {
+      font-size: 10px; } }
+  @media screen and (min-width: 641px) {
+    body {
+      font-size: 12px; } }
+
+h1, h2, h3, h4, h5, h6 {
+  padding: 20% 6px 6px 6px;
+  margin: 0px; }
+
+h2 {
+  text-transform: uppercase; }
+
+p {
+  padding: 0px 6px;
+  margin: 0px; }
+
+.container {
+  margin: 0px auto;
+  padding: 0px;
+  width: 100%;
+  max-width: 1920px; }
+
+.box {
+  overflow: hidden;
+  float: left;
+  background-color: #e6e6e6; }
+  .box:nth-child(2n) {
+    background-color: #34495e;
+    color: white; }
+  .box:nth-child(3n) {
+    background-color: #5cade2;
+    color: white; }
+  .box:nth-child(5n) {
+    background-color: #f2c40f;
+    color: #121212; }
+  .box:nth-child(6n) {
+    background-color: #179f87;
+    color: white; }
+  .box:nth-child(7n) {
+    background-color: #e94c3d;
+    color: white; }
+  .box .text {
+    background-image: url("ticket-arrow.png");
+    background-size: 200% auto;
+    background-position: left top; }
+  @media screen and (max-width: 640px) {
+    .box {
+      width: 100%; }
+      .box .image {
+        width: 50%;
+        height: 100%;
+        float: left;
+        overflow: hidden; }
+        .box .image img {
+          height: 100%;
+          width: 200%; }
+      .box .text {
+        width: 50%;
+        height: 100%;
+        float: left;
+        overflow: hidden; }
+      .box:nth-child(3n), .box:nth-child(7n) {
+        width: 100%; }
+        .box:nth-child(3n) .image, .box:nth-child(7n) .image {
+          width: 50%;
+          height: 100%; }
+          .box:nth-child(3n) .image img, .box:nth-child(7n) .image img {
+            height: auto;
+            width: 200%; }
+        .box:nth-child(3n) .text, .box:nth-child(7n) .text {
+          width: 50%; }
+      .box:nth-child(2n) .image, .box:nth-child(2n) .text, .box:nth-child(5n) .image, .box:nth-child(5n) .text {
+        float: right; }
+      .box:nth-child(2n) .text, .box:nth-child(5n) .text {
+        background-position: right top; } }
+  @media screen and (min-width: 641px) and (max-width: 1024px) {
+    .box {
+      width: 25%; }
+      .box .image {
+        width: 100%;
+        height: 50%;
+        float: left;
+        overflow: hidden; }
+        .box .image img {
+          height: auto;
+          width: 200%; }
+      .box .text {
+        width: 100%;
+        height: 50%;
+        float: left;
+        overflow: hidden;
+        background-position: left bottom; }
+      .box:nth-child(2n) {
+        width: 49.95%; }
+        .box:nth-child(2n) .image {
+          width: 50%;
+          height: 100%;
+          float: left; }
+          .box:nth-child(2n) .image img {
+            width: 200%;
+            height: auto; }
+        .box:nth-child(2n) .text {
+          width: 50%;
+          height: 100%;
+          float: left;
+          background-position: left top; }
+      .box:nth-child(3n) {
+        width: 49.95%; }
+        .box:nth-child(3n) .image {
+          width: 50%;
+          height: 100%;
+          float: right; }
+          .box:nth-child(3n) .image img {
+            width: 200%;
+            height: auto; }
+        .box:nth-child(3n) .text {
+          width: 50%;
+          height: 100%;
+          float: right;
+          background-position: right top; }
+      .box:nth-child(7n) {
+        width: 49.95%; }
+        .box:nth-child(7n) .image {
+          float: left;
+          width: 100%;
+          height: 50%; }
+          .box:nth-child(7n) .image img {
+            width: 100%;
+            height: auto; }
+        .box:nth-child(7n) .text {
+          float: left;
+          width: 50%;
+          height: 50%;
+          background-position: left bottom; } }
+  @media screen and (min-width: 1025px) and (max-width: 1366px) {
+    .box {
+      width: 20%; }
+      .box .image {
+        width: 100%;
+        height: 50%;
+        float: left;
+        overflow: hidden; }
+        .box .image img {
+          height: auto;
+          width: 200%; }
+      .box .text {
+        width: 100%;
+        height: 50%;
+        float: left;
+        overflow: hidden;
+        background-position: left bottom; }
+      .box:nth-child(2n) {
+        width: 39.96%; }
+        .box:nth-child(2n) .image {
+          width: 50%;
+          height: 100%;
+          float: right; }
+          .box:nth-child(2n) .image img {
+            width: 200%;
+            height: auto; }
+        .box:nth-child(2n) .text {
+          width: 50%;
+          height: 100%;
+          float: right;
+          background-position: right top; }
+      .box:nth-child(3n) {
+        width: 39.96%; }
+        .box:nth-child(3n) .image {
+          width: 50%;
+          height: 100%;
+          float: left; }
+          .box:nth-child(3n) .image img {
+            width: 200%;
+            height: auto; }
+        .box:nth-child(3n) .text {
+          width: 50%;
+          height: 100%;
+          float: left;
+          background-position: left top; }
+      .box:nth-child(7n) {
+        width: 39.96%; }
+        .box:nth-child(7n) .image {
+          float: left;
+          width: 100%;
+          height: 50%; }
+          .box:nth-child(7n) .image img {
+            width: 100%;
+            height: auto; }
+        .box:nth-child(7n) .text {
+          float: left;
+          width: 50%;
+          height: 50%;
+          background-position: left bottom; } }
+  @media screen and (min-width: 1367px) {
+    .box {
+      width: 16.66667%; }
+      .box .image {
+        width: 100%;
+        height: 50%;
+        float: left;
+        overflow: hidden; }
+        .box .image img {
+          height: auto;
+          width: 200%; }
+      .box .text {
+        width: 100%;
+        height: 50%;
+        float: left;
+        overflow: hidden;
+        background-position: left bottom; }
+      .box:nth-child(2n) {
+        width: 33.3%; }
+        .box:nth-child(2n) .image {
+          width: 50%;
+          height: 100%;
+          float: left; }
+          .box:nth-child(2n) .image img {
+            width: 200%;
+            height: auto; }
+        .box:nth-child(2n) .text {
+          width: 50%;
+          height: 100%;
+          float: left;
+          background-position: left top; }
+      .box:nth-child(3n) {
+        width: 33.3%; }
+        .box:nth-child(3n) .image {
+          width: 50%;
+          height: 100%;
+          float: right; }
+          .box:nth-child(3n) .image img {
+            width: 200%;
+            height: auto; }
+        .box:nth-child(3n) .text {
+          width: 50%;
+          height: 100%;
+          float: right;
+          background-position: right top; }
+      .box:nth-child(7n) {
+        width: 33.3%; }
+        .box:nth-child(7n) .image {
+          float: left;
+          width: 100%;
+          height: 50%; }
+          .box:nth-child(7n) .image img {
+            width: 100%;
+            height: auto; }
+        .box:nth-child(7n) .text {
+          float: left;
+          width: 50%;
+          height: 50%;
+          background-position: left bottom; } }
